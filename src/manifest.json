@@ -1,0 +1,21 @@
+{
+  "testId": "348f0fae-624d-4fe8-a059-1a74e61e56c7",
+  "name": "Giggle Gear",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requirements": {
+    "apps": [
+      {
+        "name": "Express",
+        "apiVersion": 1
+      }
+    ]
+  },
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "panel1",
+      "main": "index.html"
+    }
+  ]
+}

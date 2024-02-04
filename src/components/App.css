@@ -1,0 +1,75 @@
+.container {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.premium {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.try {
+  margin-top: 1vh;
+  width: 95%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.scroll-container {
+  width: 100%; /* You can adjust this according to your layout */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent content from wrapping */
+}
+
+.scroll-content {
+  width: 100%; /* Adjust this width based on your content */
+  display: flex; /* Use flexbox to layout items horizontally */
+  flex-direction: row; /* Items should be laid out horizontally */
+}
+
+.item {
+  flex: 0 0 auto; /* Let items grow, but don't shrink or grow initially */
+  padding: 10px;
+  margin: 10px; /* Adjust spacing between items */
+  border: 1px solid #ccc;
+  max-width: 60vw;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.forward-button {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid black;
+  background-color: transparent;
+}
+
+.backward-button {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent; /* Adjust size as needed */
+  border-bottom: 10px solid transparent; /* Adjust size as needed */
+  border-right: 15px solid black; /* Adjust size and color as needed */
+  background-color: transparent;
+}
+
+.slideshow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
